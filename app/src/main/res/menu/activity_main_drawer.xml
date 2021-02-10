@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/main_nav_shortcut"
+            android:icon="@drawable/ic_bubble_chart_black_24dp"
+            android:title="添加快捷方式" />
+        <item
+            android:id="@+id/main_nav_note"
+            android:icon="@drawable/ic_baseline_dns_24"
+            android:title="软件公告" />
+    </group>
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/main_nav_setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="设置" />
+            <item
+                android:id="@+id/main_nav_about"
+                android:icon="@drawable/ic_baseline_error_24"
+                android:title="关于" />
+        </menu>
+    </item>
+</menu>

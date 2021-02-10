@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RulerView">
+
+        <attr name="rulerViewTextSize" format="dimension" />
+        //刻度尺文本字体大小
+        <attr name="graduatedScaleWidth" format="dimension" />
+        //刻度尺宽度
+        <attr name="graduatedScaleBaseLength" format="dimension" />
+        //刻度尺基本长度
+        <attr name="scaleColor" format="color" />
+        ///刻度尺颜色
+
+        <attr name="pointerStrokeWidth" format="dimension" />
+        //竖线宽度
+        <attr name="pointerColor" format="color" />
+        //竖线颜色
+
+        <attr name="labelTextSize" format="dimension" />
+        //提示文字字体大小
+        <attr name="defaultLabelText" format="string" />
+        //默认文本
+        <attr name="labelColor" format="color" />
+        //文本颜色
+
+        <attr name="backgroundColor" format="color" />
+        //背景色
+    </declare-styleable>
+</resources>

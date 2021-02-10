@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nice.tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 添加快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> <!-- 移除快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> <!-- 查询快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.STATUS_BAR"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".other.Applincation"
+        android:allowBackup="true"
+        android:anyDensity="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".Activity_note"
+            android:exported="true"
+            android:label="@string/activity_note_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_about"
+            android:exported="true"
+            android:label="@string/activity_about_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_github"
+            android:exported="true"
+            android:label="@string/activity_github_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Setting"
+            android:exported="true"
+            android:label="@string/activity_setting_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".There_music_player_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_music_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".There_music_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_music_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_tochinanum_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_tochinanum_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_count_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_count_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shortcut_Activity"
+            android:label="@string/activity_shortcut_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Intent_Jump_Activity" />
+        <activity
+            android:name=".Tool_pastoday_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_past_today_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_anmo_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_anmo_bibi_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pic_imgtorui_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_img_to_uri_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pic_qrcode_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_qr_code_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pic_daike_src_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_daike_src_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pic_txtpic_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_txt_to_pic_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_getwallpic_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_get_wallpic_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_sran_number_Activity"
+            android:exported="true"
+            android:label="@string/activity_tool_sran_number_title"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Pic_totxtpic_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_txt_to_txtpic_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pic_colorpaick_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_color_piack_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pic_colorqs_Activity"
+            android:exported="true"
+            android:label="@string/activity_pic_color_qs_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_gethtml_Activity"
+            android:exported="true"
+            android:label="@string/activity_html_get_title"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Tool_countdown_Activity"
+            android:exported="true"
+            android:label="@string/activity_countdown_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".There_getweixinimg_Activity"
+            android:exported="true"
+            android:label="@string/activity_weixin_index_title"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".There_getbiliimg_Activity"
+            android:exported="true"
+            android:label="@string/activity_bili_index_title"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tool_audio_Activity"
+            android:exported="true"
+            android:label="@string/activity_audio_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daily_oclock_nu_set_Activity"
+            android:label="@string/activity_oclock_nu_set_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daily_oclock_nu_Activity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".Daily_famliy_Activity"
+            android:exported="true"
+            android:label="@string/activity_famliy_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_led_open_Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".Tool_led_Activity"
+            android:label="@string/activity_led_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daily_translation_Activity"
+            android:exported="true"
+            android:label="@string/activity_translation_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daily_rubbish_Activity"
+            android:exported="true"
+            android:label="@string/activity_rubbish_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daily_crydear_open_Activity"
+            android:label="@string/activity_crydear_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daily_crydear_Activity"
+            android:exported="true"
+            android:label="@string/activity_crydear_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tool_scaleView_Activity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".Tool_oclock_Activity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".Daily_compass_Activity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar.TransparentStatus">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

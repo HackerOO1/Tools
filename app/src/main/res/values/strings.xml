@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">耐思工具</string>
+    <string name="activity_crydear_title">快递查询</string>
+    <string name="activity_rubbish_title">垃圾分类查询</string>
+    <string name="activity_translation_title">翻译</string>
+    <string name="activity_led_title">LED文字</string>
+    <string name="activity_famliy_title">亲戚计算器</string>
+    <string name="activity_oclock_nu_set_title">时钟设置</string>
+    <string name="activity_audio_title">分贝仪</string>
+    <string name="activity_bili_index_title">BiliBili封面获取</string>
+    <string name="activity_weixin_index_title">公众号封面获取</string>
+    <string name="activity_countdown_title">专注模式</string>
+    <string name="activity_html_get_title">获取网页源码</string>
+    <string name="activity_pic_color_qs_title">图片取色</string>
+    <string name="activity_pic_color_piack_title">调色板</string>
+    <string name="activity_pic_txt_to_txtpic_title">图片转字符图</string>
+    <string name="activity_pic_txt_to_pic_title">文字换图片</string>
+    <string name="activity_pic_daike_src_title">带壳截图</string>
+    <string name="activity_pic_qr_code_title">二维码</string>
+    <string name="activity_pic_img_to_uri_title">图片转链接</string>
+    <string name="activity_tool_sran_number_title">随机数生成</string>
+    <string name="activity_tool_past_today_title">历史上的今天</string>
+    <string name="activity_tool_count_title">计数器</string>
+    <string name="activity_tool_tochinanum_title">数字转大写</string>
+    <string name="activity_tool_music_title">音乐解析</string>
+    <string name="activity_setting_title">设置</string>
+    <string name="activity_about_title">关于</string>
+    <string name="activity_github_title">开源相关</string>
+    <string name="activity_note_title">公告</string>
+    <string name="activity_shortcut_title">添加快捷方式</string>
+    <string name="activity_tool_get_wallpic_title">获取壁纸</string>
+    <string name="activity_tool_anmo_bibi_title">按摩器</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于</string>
+
+    <!-- 普通按钮颜色变化 -->
+    <drawable name="button_normal">@color/white</drawable>
+    <drawable name="button_pressed">#F5F5F5</drawable>
+    <!-- 等号按钮颜色变化 -->
+    <drawable name="equal_normal">@color/tomato</drawable>
+    <drawable name="equal_pressed">#f25d42</drawable>
+
+    <string name="left_arrow">\u21E6</string>
+
+
+</resources>
